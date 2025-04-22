@@ -1,11 +1,10 @@
 fn main() {
     println!("Hello, world!");
 
-    let x:i32 = -123;
-    let y:u8 = 3;
-    let z:f32 = 12.223;
-
-    println!("x:{x}");
-    println!("y:{y}");
-    print!("z:{z}");
+    let mut x:i8 = 123;
+    for i in 0..100{
+        x +=100;
+    }
+    print!("x={}",x);
+    
 }

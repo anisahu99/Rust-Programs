@@ -1,10 +1,14 @@
 fn main() {
-    println!("Hello, world!");
+    let is_male: bool   = true;
+    let is_above_18: bool = true;
 
-    let mut x:i8 = 123;
-    for i in 0..100{
-        x +=100;
+    if is_male {
+        println!("You are a male");
+    }else{
+        println!("You are not a male");
     }
-    print!("x={}",x);
-    
+
+    if is_male && is_above_18 {
+        println!("You are adult male");
+    }
 }

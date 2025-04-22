@@ -1,0 +1,11 @@
+/target
+Cargo.lock
+Cargo.toml
+
+# Ignore everything in src/
+src/*
+
+# But NOT main.rs
+!src/main.rs
+.gitignore
+
